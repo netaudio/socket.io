@@ -10,14 +10,7 @@ html {
 }
 
 html, input {
-  font-family:
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
-    "Helvetica Neue",
-    Helvetica,
-    Arial,
-    "Lucida Grande",
-    sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 html, body {
@@ -56,7 +49,6 @@ ul {
   height: 100px;
   margin-top: -100px;
   position: absolute;
-
   text-align: center;
   top: 50%;
   width: 100%;
@@ -112,12 +104,15 @@ ul {
 /* Messages */
 
 .chatArea {
+  width: 80%;
   height: 100%;
   padding-bottom: 60px;
 }
 
 .messages {
+  width: 80%;
   height: 100%;
+  float: left;
   margin: 0;
   overflow-y: scroll;
   padding: 10px 20px 10px 20px;
@@ -146,4 +141,36 @@ ul {
   position: absolute;
   right: 0;
   width: 100%;
+}
+
+.peerVideo {
+  width: 20%;
+  height: 50%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000;
+}
+
+.peerVideoWin {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: #15e0cf;
+  border: 1px solid #000;
+}
+
+.localVideo {
+  width: 20%;
+  height: 50%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000;
+}
+
+.localVideoWin {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: rgb(243, 181, 11);
+  border: 1px solid #000;
 }
